@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5960f1;
+  background: #ffff9f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2719,7 +2719,7 @@ pre .javascript .function {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2779,7 +2779,7 @@ pre .javascript .function {
   }
 }
 .container .main-inner {
-  width: 960px;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2795,7 +2795,7 @@ pre .javascript .function {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: 700px;
+  width: calc(100% - 260px);
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
@@ -3114,4 +3114,60 @@ pre .javascript .function {
 body {
   background: url("/images/background.jpg");
   background-attachment: fixed;
+}
+code {
+  color: #c7254e;
+  background: #f9f2f4;
+  border: 1px solid #d6d6d6;
+}
+.posts-expand .post-body img {
+  margin: 0 auto;
+}
+.post-body p a {
+  color: #fc6423;
+  text-decoration: none;
+  border-bottom: 1;
+}
+.post-body p a:hover {
+  color: #0684bd;
+}
+.post {
+  margin-bottom: 30px;
+  background-color: rgba(255,255,255,0.8);
+}
+.posts-expand .post-body img {
+  border: none;
+  padding: 0px;
+}
+.post-button .btn:hover {
+  color: #88ff0d !important;
+  background-color: rgba(0,0,0,0.75);
+}
+.pagination .page-number.current {
+  border-radius: 100%;
+  background-color: rgba(100,100,100,0.75);
+}
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  margin-bottom: 10px;
+  border: none;
+  color: #010101;
+}
+.page-number:hover,
+.page-number:active {
+  color: #88ff0d;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.75);
+}
+.pagination .space {
+  color: #000;
+}
+.pagination {
+  border: none;
+  margin: 0px;
+}
+.back-to-top:hover {
+  color: #88ff0d;
+  background-color: rgba(0,0,0,0.75);
 }
