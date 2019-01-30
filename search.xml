@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F09%2F09%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[markdown简易教程]]></title>
+    <url>%2F2015%2F01%2F29%2Fmarkdown%E7%AE%80%E6%98%93%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[教程说明 本教程简略的列出了markdown最常用的基础用法，便于快速上手。关于进一步的用法技巧将在第二部分基础语法后逐步完善积累。 基础语法标题：“ # ”可用于标题标记，符号的个数依次对应标题的阶数（例如基础语法前有一个符号“ # ”，以下的小标题依次加一个“#”）。当进入下一个大标题例如“2.”时，“#”再从一个依次开始。 强调：对需强调的词语两端各加一个 “ * ” 。 列表：对于无序列表只需在各标题前加“ + ”或者“ - ”，还有“ * ”也可以，不过记一个就行了。具体事例如下。 我前面有个 “ - ”。 我前面有个 “ + ”。 我前面有个 “ * ”. 链接：分为行内和参考两种形式。行内形式链接放圆括弧，文字放方括弧,例如微风拂来。参考形式是在段落链接较多时，把方括弧后的圆括弧还为响应的数字，如微风拂来紧接着下面标出每个数字对应的域名。1[1]: breeze.ink 代码：一般在编辑器里面有直接插入代码块的功能，这里推荐Madoko编辑器，可以在markdown编写的过程中即时可视化页面，另外有很多强大的功能Madoko。 图片：图片的写法参考链接的写法写法如下。另外在madoko编辑器中有直接插入图片的功能，类似的还有许多这样的快捷功能键。1![图片名称](../img.jpg "Title")]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+</search>
