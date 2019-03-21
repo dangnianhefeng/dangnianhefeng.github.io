@@ -7,8 +7,8 @@
       <tags>
         <tag>残差网</tag>
         <tag>图像分类</tag>
-        <tag>HYBRID</tag>
         <tag>高光谱图像</tag>
+        <tag>HYBRID</tag>
       </tags>
   </entry>
   <entry>
@@ -16,10 +16,10 @@
     <url>%2F2019%2F03%2F13%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E5%9F%BA%E4%BA%8E%E8%B6%85%E5%83%8F%E7%B4%A0%E7%9A%843D%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AF%B9%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。高光谱图像（HSI）由数百个波段组成，其特征在于光谱分辨率高和空间信息丰富。但光谱特征的高维度和有限的训练样本一直影响着HSI分类工作。当超像素自适应尺寸和形状的特点用于表示高光谱图像结构时，通过超像素的空间特征图像增加了光谱-空间相似性和多样性。本文把3D DNN与超像素结合，具有更加有效利用光谱空间立方体信息的优势。常规的像素级分类方法易受混合像素和噪声的影响。算法改进：首先，通过对每个超像素内的光谱像素进行线性加权来创建加权特征图像（WFI），以增加对象内的区域一致性。实验验证：2.算法应用网络架构基础残差单元的改进网络设计图2给出了模型体系结构，右下角标记出了各个颜色代表的不同功能层。其中$C$为输入模块，$P_1-P_3$被命名为金字塔残差模块，里面包含若干金字塔瓶颈残差单元$B$。Patch单位的数据依次通过如图的五个模块，组成了很深的网络。图中每个$B^{(i)}_j$由几类层堆叠而成。三个Conv层前面分别有Bach normalization层在单元的末端加入Relu激活层。实现了每个Conv层考虑了其输入特征中所有的光谱信息，同时处理了窗口内的空间信息。在$P_2$和$P_3$中加入了由平均池化层构成的下采样层，来减少数据方差并从空间邻域中提取低级别的特征来提供给下一层。在网络设计中采用 [1] 中的方法线性地增加每个残差单元的特征图深度。具体每层滤波器属性取值在原文表1列出。学习率的设置，在前150epochs中设置为0.1，后50epochs设为0.01。3.实验☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668[2] B. Waske, S. van der Linden, J. Benediktsson, A. Rabe, and P. Hostert,“Sensitivity of support vector machines to random feature selection in classification of hyperspectral data,” IEEE Trans. Geosci. Remote Sens.,vol. 48, no. 7, pp. 2880–2889, Jul. 2010.[3] G.-B. Huang, H. Zhou, X. Ding, and R. Zhang, “Extreme learning machine for regression and multiclass classification,”IEEE Trans.Syst.,Man, Cybern. B, Cybern., vol. 42, no. 2, pp. 513–529, Apr. 2012.[4] G.-B. Huang and C.-K. Siew, “Extreme learning machine with randomly assigned RBF kernels,” Int. J. Inf.Technol., vol. 11, no. 1, pp. 16–24,2005.[5] Z. Zhong, J. Li, Z. Luo, and M. Chapman, “Spectral–spatial residual network for hyperspectral image classification: A 3-D deep learning framework,” IEEE Trans. Geosci. Remote Sens., vol. 56, no. 2,pp. 847–858, Feb. 2018.]]></content>
       <tags>
-        <tag>图像分类</tag>
-        <tag>高光谱图像</tag>
         <tag>超像素</tag>
         <tag>深层神经网络</tag>
+        <tag>图像分类</tag>
+        <tag>高光谱图像</tag>
       </tags>
   </entry>
   <entry>
@@ -39,8 +39,8 @@
     <content type="text"><![CDATA[1.论文概要研究背景：论文链接。语义图像分割（Semantic image segmentation）一直是CV领域的热点。经过语义分割后，图像中的每个像素被分配一个类别标签。目前语义图像分割常用框架通常为把全连接替换为卷积层的全卷积网络。残差块的引入通过跳跃连接的引入有效的解决了梯度消失的问题。本文通过改进残差网络设计用于语义图像分割。对于图像语义分割，“上下文信息”获取的越多越好。为了获取更多“上下文信息”现有的方法大多存在网络架构过于复杂，大规模的超参数调整的问题。本文提出的金字塔残差块简单而有效。不仅限于文中的任务，是一种可应用于基于ResNet的其他体系结构或任务的通用方法。算法改进：本文提出名为金字塔残差快（pyramid residual block），可以更好的利用上下文信息并增强关键特征。相比传统残差块，Pyramid残差块添加了两部分，首先是聚合基于不同区域上下文信息的Pyramid池化块，然后添加了注意力机制，能通过逐元素乘法运算自适应地重新校准特征响应，从而增强有用特征并抑制次要特征。实验验证：本文提出的金字塔残差块在PASCAL VOC 2012分段数据集中表现出色，并且在标准残差块上大大提高了分割精度。2.算法应用创新点1：Pyramid Pooling Module在图像语义分割中，已经有许多方法更有效地收集背景信息。[1]最先提出金字塔Pooling模块。[1]中金字塔汇集模块附在ResNet的顶部，而本文的金字塔汇集模块嵌入到ResNet的残差块中如图1。具体而言，细粒度或局部信息有助于实现良好的像素级精度，图像的全局背景能够澄清局部模糊性。在深度神经网络中，虽然理论上来自更高层次的特征已经具有超出输入图像尺寸的非常大的感受野，但实际上感受野的尺寸远小于理论尺寸。这阻碍了充分合并重要的上下文信息，Pyramid Pooling Module有效的解决了这个问题。如图[1]所示，改进后的模块将来自残差块主分支的特征映射作为输入。它具有三个并行分支，每个分支包含一个池化层，一个ReLU激活函数，两个卷积层（1×1卷积），一个sigmoid函数和一个上采样操作。三个分支中的池的bin大小分别设置为1×1,2×2和4×4且都为平均池化。池化操作后的第一个卷积层用于降维。之后的第二卷积层用于维度增加，恢复原始信道数。再经过上采样操作后，来自三个并行分支的特征映射通过逐元素求和融合，得到注意力概率分布图（attention probability maps）。创新点2：注意力机制在金字塔池模块的每个分支中，对于第二个卷积后的激活函数，选择sigmoid函数而不是ReLU函数来规范化特征映射的每个元素。最终拿输出的注意力概率分布图和来自残差块主分支的特征图执行逐元素乘法运算。通过这种简单的方式，可以为更有用的特征响应分配更大的权重，从而有助于提高特征可辨性。3.实验实验数据集为PASCAL VOC 2012，广泛用于的语义分割数据集。包含20个对象类别和一个背景类。我们使用[2]提供的额外注释来增加数据，分别生成10582,1449和1456个用于训练，验证和测试的图像。使用随机梯度下降（SGD）训练模型，批量大小为10，最大迭代次数为20K。为了增强数据，对所有训练图像使用随机镜像和随机裁剪。使用已经在ImageNet数据集上预训练的ResNet-50或ResNet-101网络作为基础模型。最后一个残余块的输出由1×1卷积层和softmax非线性处理，以产生最终的像素分割结果。为了探索降维对性能的影响，用金字塔残差块替换ResNet-50的最后残差块（res5c），并将维数降低层的通道数（即图1中的’Conv1’）设置为分别为1024,512,256和128。结果显示合理压缩特征的维数可以在一定程度上提高分割精度;这可能是因为删除了冗余特征。但是，当维数降低太多时，由于判别特征的丢失，结果又会变差。本实验显示当通道数为256时效果最好。为了评估单个组件的有效性，分别保留金字塔池模块和注意力机制两个组件中的一个并移除另一个。实验结果显示每个组件都有利于分割效果，当二者合并时效果最好。由于具有一个金字塔残差块（res5c）的ResNet-50在很大程度上优于基本模型，实验进一步用金字塔残差块替换原始ResNet-50的两个块（res5c和res4f）和三个块（res5c，res4f和res4c）。实验结果显示，具有两个金字塔残差块的模型比仅有一个金字塔残差块的模型带来了0.91％的改进，具有三个金字塔残余块的模型进一步将性能提高了0.71％。因此，本文提出的金字塔残差块对于改进基于ResNet的语义分割系统是简单而有效的。为了探究更深层次的神经网络是否有利于像素方式的语义分割。实验采用预先培训的ResNet-101，其修改与ResNet-50相同。以相同的方式，一个块（res5c），两个块（res5c和res4b22）和三个块（res5c，res4b22和res4b19）分别被金字塔残余块替换。实验结果显示，相同的设置下，ResNet-101在很大程度上优于ResNet-50。此外，当更换的块数增加时，性能从71.27％提高到75.38％。更深层次的ResNet也受益于更多金字塔剩余块。对比实验结果如图2。☛参考文献[1] H. Zhao, J. Shi, X. Qi, X. Wang, and J. Jia, “Pyramid scene parsing network,” arXiv preprint arXiv:1612.01105, 2016[2] B. Hariharan, P. Arbelaez, L. Bourdev, S. Maji, and J. Malik, “Semantic ´contours from inverse detectors,” in Computer Vision (ICCV), 2011 IEEE International Conference on. IEEE, 2011, pp. 991–998.]]></content>
       <tags>
         <tag>残差网</tag>
-        <tag>图像语义分割</tag>
         <tag>图像分类</tag>
+        <tag>图像语义分割</tag>
       </tags>
   </entry>
   <entry>
