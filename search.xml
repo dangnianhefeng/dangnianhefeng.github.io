@@ -1,13 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[文献之美-Densely Connected Convolutional Networks]]></title>
+    <url>%2F2019%2F07%2F22%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-Densely%20Connected%20Convolutional%20Networks%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。远算法优点：non-l实验验证：基于2.算法应用Non-local$$\mathbf{y}{i}=\frac{1}{\mathcal{C}(\mathbf{x})} \sum{\forall j} f\left(\mathbf{x}{i}, \mathbf{x}{j}\right) g\left(\mathbf{x}_{j}\right)$$残差单元的改进如图网络设计图2给☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668]]></content>
+      <tags>
+        <tag>DenseNet</tag>
+        <tag>图像处理</tag>
+        <tag>CV</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-3D Separable ResNet and Transfer Learning]]></title>
+    <url>%2F2019%2F07%2F15%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-3D%20Separable%20ResNet%20and%20Transfer%20Learning%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：论文链接。语义图像分割算法改进：本文提实验验证：本文2.算法应用网络框架块结构：3D-SRNet3.实验实验数据集为☛参考文献[1]]]></content>
+      <tags>
+        <tag>残差网</tag>
+        <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-3D Separable ResNet and Transfer Learning]]></title>
+    <url>%2F2019%2F07%2F15%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-Exploring%203-D%E2%80%932-D%20CNN%20Feature%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：论文链接。语义图像分割算法改进：本文提实验验证：本文2.算法应用网络框架块结构：3D-SRNet3.实验实验数据集为☛参考文献[1]]]></content>
+      <tags>
+        <tag>残差网</tag>
+        <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-clustering loss function(CVPR 2019)]]></title>
+    <url>%2F2019%2F06%2F30%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-clustering%20loss%20function(CVPR%202019)%2F</url>
+    <content type="text"><![CDATA[1.论文概要✡︎论文链接。本文一大亮点是聚类损失函数的提出，损失函数将同类像素在空间嵌入上拉到一起，并共同学习特定于对应类的聚类带宽（clustering bandwidth），从而最大化生成的实例掩码（resulting instance mask）的交集结合☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668]]></content>
+      <tags>
+        <tag>图像处理</tag>
+        <tag>CV</tag>
+        <tag>loss function</tag>
+        <tag>cluster</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-Non-local Networks Meet SENet and Beyond]]></title>
+    <url>%2F2019%2F06%2F27%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-Bag%20of%20Tricks%2F</url>
+    <content type="text"><![CDATA[1.论文概要✡︎论文链接。图像处理依靠深度学习在飞速发展，就拿分类来说，分类精度越来越高。这些进步不仅仅来源于网络模型结构的变化，同时还依托于一系列的小技巧来优化结果。本文针对这些技巧集合包括训练过程的改进、损失函数、数据预处理和优化方法，通过消融实验探究各自效果。这些技巧对图像语义分割、目标检测同样适用。实证表明,几种技巧可以显著提高精度,结合在一起可以进一步提高模型的准确性。2.算法应用Simplifying Non-local通过实验，文中得证对于大多数点各自对应的注意力分布图几乎相同，所以可以认为虽然Non-local聚合了全局SE的改进如图1(c)网络设计如图1(d)☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668]]></content>
+      <tags>
+        <tag>图像处理</tag>
+        <tag>CV</tag>
+        <tag>Non-local</tag>
+        <tag>SENet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-Non-local Networks Meet SENet and Beyond]]></title>
+    <url>%2F2019%2F06%2F27%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-Non-local%20Networks%20Meet%20SENet%20and%20Beyond%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。Non_local通过聚合全局上下文信息到目标位置来捕获远程依赖性关系。然而文中表明通过实验分析发现聚合后的全局上下文信息对于图像内的不同查询位置几乎相同。Non-local网络中，对于每个查询位置，首先计算查询位置与所有位置的之间的成对关系得到注意力分布图，然后通过加权和与注意图定义的权重来聚合所有位置的特征。但是文中通过可视化某一具体位置的注意力分布图发现，对比三个不同的点，其注意力分布图几乎无异。基于此，文中提出基于位置关系独立的查询公式来简化网络，由于其与SE-Net的相似性，文中提出改进后的Non-local与Set-Net的结合网络，网络基础快命名为全局上下文块（GC）2.算法应用Simplifying Non-local通过实验，文中得证对于大多数点各自对应的注意力分布图几乎相同，所以可以认为虽然Non-local聚合了全局上下文信息，但训练得到的全局上下文实际上独立于查询位置。因此,无需为每个位置计算特定的全局上下文,文中提出通过计算全局注意力图来让所有位置点共享此概率分布图。简化后的non-local块和SE-Net有很多相同之处，例如他们都通过从所有位置汇总相同特征来增强原始特征，但聚合策略、转换和融合增强函数有所不同。文中进一步抽象统一Non-local和SE-Net，得到一个三步架构，1）上下文建模模块，用以聚合全局上下文特征；2）特征转换模块，用以捕获通道间的依赖性；3）融合模块，用以将全局上下文特征合并到所有位置特征中。Simplifying non-local的块结构如图1(b)SE的改进如图1(c)网络设计如图1(d)☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668]]></content>
+      <tags>
+        <tag>图像处理</tag>
+        <tag>CV</tag>
+        <tag>Non-local</tag>
+        <tag>SENet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-Non-local Neural Networks]]></title>
+    <url>%2F2019%2F05%2F11%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-Non-local%20Neural%20Networks%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。远程依赖性的获取一直是神经网络的设计核心，图像数据有别于序列顺序信息，对远程依赖性一般依靠于更深层次的堆叠卷积运算。一味的堆叠使得网络计算效率底下、优化困难。为了应对这样的局限，本文对计算机视觉中非局部平均运算进行推广，直观的理解Non-local network就是对一个位置学习全局(input feature map)相对于此位置的权重和。由于此处的“位置”可以是时间，像素点和序列信息，所以其在视频、图像和NLP中都可以有效应用。与堆叠卷积渐进学习不同，non-local运算通过计算任意两位置的相关性。此特性可以有效减少网络层数，算法优点：non-local运算可以通过计算任意距离的两个位置点相互作用来捕获全局依赖性。而且不需要大量的块堆叠，即使只有几层就可以达到理想的效果。与此同时，non-local的计算支持可变输入，所以可以轻松的和其他模块结合。Non-local mean是一种经典的筛选算法，用于计算图像中所有像素的加权平均值。实验验证：基于四个常见的高光谱数据集，与10种不同的高光谱图像分类算法对比，在精度和时间复杂度上本文算法都很有竞争力。2.算法应用Non-local$$\mathbf{y}{i}=\frac{1}{\mathcal{C}(\mathbf{x})} \sum{\forall j} f\left(\mathbf{x}{i}, \mathbf{x}{j}\right) g\left(\mathbf{x}_{j}\right)$$下面三个公式分别可以应用到上式的f函数。$$f\left(\mathbf{x}{i}, \mathbf{x}{j}\right)=e^{\mathbf{x}{i}^{T} \mathbf{x}{j}}$$$$f\left(\mathbf{x}{i}, \mathbf{x}{j}\right)=e^{\theta\left(\mathbf{x}{i}\right)^{T} \phi\left(\mathbf{x}{j}\right)}$$$$f\left(\mathbf{x}{i}, \mathbf{x}{j}\right)=\theta\left(\mathbf{x}{i}\right)^{T} \phi\left(\mathbf{x}{j}\right)$$Non-local块的最终表示如下式：$$\mathbf{z}{i}=W{z} \mathbf{y}{i}+\mathbf{x}{i}$$non-local的块结构：残差单元的改进如图1，从左到右网络设计图2给出了3.实验对比实验☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668]]></content>
+      <tags>
+        <tag>图像处理</tag>
+        <tag>CV</tag>
+        <tag>Non-local</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-Convolutional Block Attention Module]]></title>
+    <url>%2F2019%2F04%2F22%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%20Convolutional%20Block%20Attention%20Module%2F</url>
+    <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。由于实验验证：基于四个常见的高2.算法应用网络架构基础采用2D-CNN,残差单元的改进如图1，从网络设计图2给出了模3.实验对比实验☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668[2] B. Waske, S. van der Linden, J. Benediktsson, A. Rabe, and P. Hostert,“Sensitivity of support vector machines to random feature selection in classification of hyperspectral data,” IEEE Trans. Geosci. Remote Sens.,vol. 48, no. 7, pp. 2880–2889, Jul. 2010.]]></content>
+      <tags>
+        <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
+        <tag>CNN</tag>
+        <tag>Attention Module</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文献之美-用于场景分割的双重注意网]]></title>
+    <url>%2F2019%2F04%2F15%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E7%94%A8%E4%BA%8E%E5%9C%BA%E6%99%AF%E5%88%86%E5%89%B2%E7%9A%84%E5%8F%8C%E9%87%8D%E6%B3%A8%E6%84%8F%E7%BD%91%2F</url>
+    <content type="text"><![CDATA[1.论文概要✡︎论文链接。本文通过自注意力机制来获取更多上下文依赖关系来解决场景分割任务。提出了双重注意网络（DANet）来自适应地集成本地特征及其全局依赖性。在传统的FCN上附加两种类型的注意模块，分别对空间尺寸和通道建模。其中空间位置注意力模块通过自注意力机制来获取任意两个位置之间的空间依赖性，波段注意力模块中通过类似的自注意力机制来捕获任意两个波段间的依赖关系。最后，融合两个注意模块的输出以进一步增强特征表示。网络架构图如下：]]></content>
+      <tags>
+        <tag>自注意力机制</tag>
+        <tag>场景分割</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[文献之美-残差注意力网对图像的分类]]></title>
     <url>%2F2019%2F04%2F02%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E6%AE%8B%E5%B7%AE%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%BD%91%E5%AF%B9%E5%9B%BE%E5%83%8F%E7%9A%84%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。本文提出了“残差注意力网络”，一种使用注意机制的卷积神经网络，以端到端的训练方式与前沿的前馈网络架构相结合。本文算法有两个优势，首先可以广泛捕获不同类型注意力特征图，其次残差块的加入可以使网络可以轻松拓展到非常深的层次。2.算法应用网络框架设计==未完待续==残差块由两部分构成，trunk branch和mask branch。主干分支主要用于特征处理并能应用于任何前沿的网络架构。网络参数设置☛参考文献[1] M. Jaderberg, K. Simonyan, A. Zisserman, et al. Spatial transformer networks. In NIPS, 2015]]></content>
       <tags>
         <tag>残差网</tag>
-        <tag>注意力机制</tag>
         <tag>图像分类</tag>
+        <tag>注意力机制</tag>
       </tags>
   </entry>
   <entry>
@@ -15,10 +109,10 @@
     <url>%2F2019%2F03%2F28%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E6%B3%A2%E6%AE%B5%E5%8A%A0%E6%9D%83%E7%BD%91%E5%AF%B9%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E7%9A%84%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。高光谱遥感图像使用数百个波段来描述地面区域的精细光谱信息。这其中不可避免地包含大量冗余以及噪声频带。发现最优波段并对波段之间的关系建模是处理数据和提高后续分类任务性能的有效手段。算法改进：本文通过设计注意力模块并和传统卷积神经网络融合用于高光谱图像分类，提出了波段加权网络。网络模拟波段间关系建模，根据重要性进行加权。一个突出特征是它可以为不同的样本分配不同的权重。对于光谱高维问题常见的两种解决方法分别为特征提取(采用相关算法计算出一组有用的特征，缺点易破坏数据的原始物理结构且计算成本高)、波段选择(选择有利信息量大的波段)。本文波段加权网将注意力模块集成到CNN网络，通过注意力机制从数据中学习不同波段在高光谱图像中的相对重要性，能有效的建模起波段之间的关系。2.算法应用高光谱的波段加权设$p_i是高光谱图像H的一个像素，波段加权中会找一个N\times1的向量v_i(N表示高光谱图像的波段数$其中$v_i$的第$j$个元素代表波段$j$在样本$p_i)$中对分类的权重大小，加权后的样本$q_i=p_i*v_i(点积)$网络基本单元本文中，仅使用光谱信息进行分类，因此1-D CNN为主要网络结构。在注意力模块设计中，会为每个波段生成一个权重，然后对加权后的特征图进行分类。1-D CNN主要由1-D卷积，1-D池化和全连接层组成。由于使用1-D操作，因此特征映射只是一个向量。用全连接的方式设计波段加权模块。采用形为瓶颈式的网络结构来减少参数数量如图1.$N$表示波段数，$B$表示隐层神经元数量。波段加权过程用$$$q_i=\sigma_2(T_2\sigma_1(T_1p_i))p_i$$$表示,其中$T_1$是权重矩阵为$B\timesN$的第一层，$T_2$是权重矩阵为$N\timesB$的第二层，$\sigma_1$用sigmod激活函数，$\sigma_2$用softmax激活函数。文中还指出用全连接层而不用卷积层是出于在对波段关系建模方面，相关的波段不一定存在于某些局部连续频谱空间中。分类网络采用文献[1]中的网络，不同的是卷积核尺寸设计为$1\times3$3.实验数据集采用IP和UP。batch size设置为64，epoch设置为1000，网络各参数设置如下图2.与其他1-D光谱分类方法进行对比实验。并且通过消融学习(Ablation study)来验证有效性。训练集中IP取20%、UP取10%。同时取10%验证集，在训练的过程中，监测验证损失以提前停止训练。在消融对比中，原方法与去掉加权模块后的对比，显示了注意力模块的有效性。☛参考文献[1] Y. Chen, H. Jiang, C. Li, X. Jia, and P. Ghamisi, “Deep feature extraction and classification of hyperspectral images based on convolutional neural networks,” IEEE Transactions on Geoscience and Remote Sensing, vol. 54, no. 10, pp. 6232–6251, 2016.]]></content>
       <tags>
+        <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
         <tag>遥感</tag>
         <tag>注意力机制</tag>
-        <tag>图像分类</tag>
-        <tag>高光谱图像</tag>
       </tags>
   </entry>
   <entry>
@@ -27,8 +121,8 @@
     <content type="text"><![CDATA[1.论文概要研究背景：本文是17年的会议论文，网络设计创新点和实验内容不多，所以简单的总结一下。✡︎论文链接。随着网络层数的加深，网络学习时不同层级间存在相关性。所提出的DRN可以有效的克服由于网络深度增加和有限的训练样本引起的分类准确性的降低。利用混合机制合并网络中不同分层特征。实验验证：在 Indian Pine数据集随机取10%训练样本训练学习。2.算法应用网络架构创新文中提出的Hybrid deep residual network（DRN）特点在于，层数深，另一点文中提出不同层的输出可以表示不同尺度的特征，它们可以提供互补相关的信息。因此，引入混合机制以充分利用多尺度特征。多尺度特征由最后对应池化层处理后逐点相加融合。本论文网络由九个残差块构成，每个块中有两个卷积层。整个体系结构可以根据卷积核的数量分为三个阶段，分别为16，32和64个卷积核。在普通残差网设计的基础上，对跳跃连接的设定进行改进，一个残差块中跳跃连接不仅仅存在其相应的残差块中，而是存在于整个网络中，对不同层级间的特征进行融合，如下图。3.实验实验结果在17年的时间点上看，分类精度较高。因为在Indian Pine数据集只取10%的训练样本。OA为98.44，AA为98.23.时间原文没有提，由于是深层网络，时间预计很大。]]></content>
       <tags>
         <tag>残差网</tag>
-        <tag>图像分类</tag>
         <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
         <tag>HYBRID</tag>
       </tags>
   </entry>
@@ -37,22 +131,22 @@
     <url>%2F2019%2F03%2F13%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E5%9F%BA%E4%BA%8E%E8%B6%85%E5%83%8F%E7%B4%A0%E7%9A%843D%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%AF%B9%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。高光谱图像（HSI）由数百个波段组成，其特征在于光谱分辨率高和空间信息丰富。但光谱特征的高维度和有限的训练样本一直影响着HSI分类工作。每个超像素由一组空间相邻、光谱相似的像素组成，具有自适应尺寸形状的特点。用于表示高光谱图像结构时，通过超像素的空间特征图像增加了光谱-空间相似性和多样性。本文把3D DNN与超像素结合，具有更加有效利用光谱空间立方体信息的优势。提供了更平滑的分类图并获得更精确的结果。常规的像素级分类方法易受混合像素和噪声的影响。算法改进：首先，通过对每个超像素内的光谱像素进行线性加权来创建加权特征图像（WFI），以增加对象内的区域一致性。WFI中每个超像素内的光谱像素趋于相似，标记相同。其次，提出了一种基于超像素的三维样本填充方法，分别从HSI和WFI图像构建三维样本，避免不同对象之间的邻域窗口跨越边界。第三，根据填充的3D样本，采用3D CNN从HSI中提取3D谱空间特征。同时，构建3D递归卷积神经网络（3D RCNN）进一步利用WFI的空间连续性信息，抑制分类结果中的噪声。实验验证：数据集采用Pavia University、Groundtruth of Pavia University和Indian Pines。在所有实验的10次独立重复。对于帕维亚大学和印第安松树图像，1％的标记样本被随机选择并用于训练，其余用于测试。对于帕维亚中心图像，0.1％的标记样本被随机选择并用于训练。2.算法应用超像素分割经过超像素分割后的图像形成一个自适应互不重叠且同质的区域集合。本文通过超像素构造WFI图像，促进分类图中谱空特征一致性。通过组合每个超像素内的线性加权光谱像素构造WFI。平均特征图像mean feature image (MFI)通过简单地平均每个超像素内的光谱像素并将平均值分配给同一超像素内的所有光谱像素来构造MFI。如图1(a)原始图像被分割成两个超像素，表示为{SP1，SP2}。 SP1中的光谱像素彼此相似，并且SP2中存在几个明显的混合光谱像素。红色圆圈表示一些混合光谱像素。图1(b)(c)分别表示MFI与WFI。与WFI相比，MFI更平滑，但在MFI图像中每个超像素内的光谱像素的多样性较低。WFI在没有混合光谱像素的超像素中具有良好的性能，然而，对于包含混合光谱像素的超像素，它不能消除混合像素的影响并提供充分的区域一致性。但WFI光谱像素相似性与多样性兼顾的特点可以改善由于训练样本较少而陷入过度拟合的问题。所以我们提出3D RCNNs来从WFI中提取3D特征避免混合光谱像素造成的错误分类。因为3D RCNN可以抑制混合光谱像素的影响，同时保持WFI的多样性和一致性。此外，文中提出了一种3D样本填充方法，通过超像素来抑制3D CNN中选择相邻立方窗口时对边界分类的影响。使用超像素内的光谱空间信息来填充3D邻域立方体窗口中超像素边界之外的像素。填充的3D样本保留与中心像素类似的光谱空间信息，从而避免边界的错误分类。由于WFI具有很好的空间连续性，但缺乏结构信息。 HSI可以提供丰富的结构信息，但它总是会导致噪声分类结果。因此，HSI和WFI都用于3D样本构建，以更好地平衡同质区域和结构区域。总结起来，总共有四个步骤创建超像素和构建WFI，构建3D超像素样本，分别通过3D CNN和3D RCNN从HSI和WFI提取3D谱空间特征，以及多特征学习和分类。图2展示了各步骤的关系。WFI利用每个超像素内的局部空间信息改善分类特征图中的空间连续性。对于每个像素$Z_i|_{B\times1}$(B表示光谱波段维)都会与其超像素内的像素$Z_j|_{B\times1}$进行线性加权运算。如下式(1).$\hat Z_i|{B\times1}=\sum{j=1}^J\alpha_{i,j}\times Z_j|{B\times1} \tag{1}$其中$\alpha{i,j}$代表$Z_i|_{B\times1}$和$Z_j|_{B\times1}$两像素的相似程度，表示如下式(2),$h$是预设好的标量。$\hat Z_i|_{B\times1}$最终替代$Z_i|{B\times1}$。 $\alpha{i,j}= \frac{exp(-||Z_i|_{B\times1}-Z_j|_{B\times1}||_2^2/h)}{f_N} \tag{2}$3D超像素样本构建为了充分利用HSI的结构特征和WFI的空间一致性特征，分别在HSI和WFI上构建三维样本。如果相邻窗口内的所有像素属于相同的超像素，因为它们共享相似的结构和光谱信息所以这些像素直接构成3D立方体样本，否则，如果相邻窗口内的中心像素和其他像素位于不同的超像素，则这些像素将由3D样本填充方法填充，以保持结构和光谱信息的相似性。最终位于几何中心的像素划分比边界像素更有可靠性。因此对于超像素每个区域用相应的最大内切矩形进行填充。然后分别在HSI和WFI上映射基本填充图，以获得3D基本填充图像。获得最大内切矩形的过程及填充方法如图3，首先把基本填充图像（base fill image）和领域窗口（Neighborhood window）中心重合，当Base fill map尺寸大于Neighborhood window时，保留位于与中心像素相同的超像素的像素，并将剩余像素替换为3D基本填充图像（base fill image）中相应的像素。当Base fill map尺寸小于Neighborhood window时，扩充基本填充图像（base fill image）个数直到全覆盖领域窗口（Neighborhood window）。然后根据第一种情况中使用的方法填充剩余的光谱像素。值得注意的是，HSI和WFI上的特征学习过程彼此独立。3DCNN提取HSI中的空谱特征，3D RCNN作用于WFI来解决混合光谱像素的问题。3D RCNN具有与3D CNN类似的结构。不同之处在于3D RCNN的每个卷积层的输入由3D平均样本和若干3D特征映射组成。具体计算公式可参考原论文。3.实验实验中，首先确定超像素的数量对分类效果的影响。结果显示数量太小时，难以分割不同的类，太多时影响区域一致性。，所以会出现起初效果改善明显，超过一个固定值时分类效果反而变差。Pavia University最优化时为150个超像素，Indian为100个超像素、Pavia为1000个超像素，因其纹理特征较复杂。考录到计算成本和分类效果的权衡，3D samoles的尺寸大小$L\times L\times B中的L取值11$实验还对比了3D CNN、以及只借助WFI时、WFI和3D样本填充都加入时、及再加入3D RCNN下的三种情况。与其他算法对比显示，本算法在训练样本很少的情况下表现较好，但由于超像素和3D样本填充的加入使得算法时间复杂度增加。使得算法的时间复杂度较大。☛参考文献[1] Shi C , Pun C M . Superpixel-based 3D Deep Neural Networks for Hyperspectral Image Classification[J]. Pattern Recognition, 2017:S0031320317303515.]]></content>
       <tags>
-        <tag>遥感</tag>
-        <tag>图像分类</tag>
         <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
+        <tag>遥感</tag>
         <tag>超像素</tag>
         <tag>深层神经网络</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[文献之美-用于空谱高光谱图像分类的Pyramidal残差网]]></title>
-    <url>%2F2019%2F02%2F25%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E7%94%A8%E4%BA%8E%E7%A9%BA%E8%B0%B1%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E7%9A%84Pyramidal%E6%AE%8B%E5%B7%AE%E7%BD%91%2F</url>
+    <url>%2F2019%2F02%2F25%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-%E7%94%A8%E4%BA%8E%E7%A9%BA%E8%B0%B1%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E7%9A%84Pyramidal%E6%AE%8B%E5%B7%AE%E7%BD%91%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC%2F</url>
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。由于高光谱图像（HSI）本生的高维度和“噪声”导致常规的CNN不能较好的利用高光谱图像的空谱特征，加之随着CNN层数的增加效果反而更差。为了解决以上困扰本文提出深度金字塔（Pyramidal）网用于高光谱图像分类。有别于一般的残差网，Pyramidal残差网类似于金字塔形状逐渐增加卷积层特征图的维度，在网络更深层次涉及更多的特征，同时平衡每层的时间复杂度.同时，应对HSI高复杂性的创新研究线之一是更好的挖掘空间-光谱特征的结合，它的实现比单纯的像素分类效果更好，此类方法通过将每个像素的光谱与其所属的相应结构的尺寸和形状相结合来使分类不确定性降低。算法改进：常规残差网络（ResNet）通过残差块来改进CNN，促进更深层网络的学习并使网络层次更深入。本文通过基于金字塔瓶颈残差块建立网络，使用光谱信息和空间信息来实现快速准确的高光谱分类。与金字塔形似，越接近输出的网络层特征学习图越大。便于学习更多的有价值特征。同时网络对训练样本数量也要求较少。实验验证：基于四个常见的高光谱数据集，与10种不同的高光谱图像分类算法对比，在精度和时间复杂度上本文算法都很有竞争力。2.算法应用网络架构基础采用2D-CNN,但是所有波段都将用于输入数据，为了保留原始光谱特征不采用类似PCA的降维方法。CNN层中包括卷积层、Batch normalization层(减少协方差偏移，在每批特征图上强加高斯分布)、Nonlinearity层(学习非线性表示)和池化层。残差单元的改进如图1，从左到右分别给出了传统残差块、瓶颈残差块和金字塔瓶颈残差块。传统残差块从上到下具有相同的拓扑，瓶颈残差块中的特征图先被缩小然后恢复输入时的大小，这样的结构有助于残差单元更快的执行。最后金字塔残差块单元中，CONV层的通道数逐渐增加，导致各层逐渐变宽。随之带来一个问题，残差块中最终的原始输入特征映射$p_j$(通过跳跃连接而来)与残差函数$F(p_j,w_j)$的结果之间的维度不同，本文采用 [1] 中零填充快捷方式，即添加额外的零条目直到达到增加的维度。网络设计图2给出了模型体系结构，右下角标记出了各个颜色代表的不同功能层。其中$C$为输入模块，$P_1-P_3$被命名为金字塔残差模块，里面包含若干金字塔瓶颈残差单元$B$。Patch单位的数据依次通过如图的五个模块，组成了很深的网络。图中每个$B^{(i)}_j$由几类层堆叠而成。三个Conv层前面分别有Bach normalization层在单元的末端加入Relu激活层。实现了每个Conv层考虑了其输入特征中所有的光谱信息，同时处理了窗口内的空间信息。在$P_2$和$P_3$中加入了由平均池化层构成的下采样层，来减少数据方差并从空间邻域中提取低级别的特征来提供给下一层。在网络设计中采用 [1] 中的方法线性地增加每个残差单元的特征图深度。具体每层滤波器属性取值在原文表1列出。学习率的设置，在前150epochs中设置为0.1，后50epochs设为0.01。3.实验对比实验包含10中不同的分类方法，分别为：1) SVM with radial basis function kernel [2]; 2) RF; 3) MLP;4) extreme learning machine (ELM) [3]; 5) kernel ELM(KELM) [4]; 6) 1-D CNN; 7) 2-D CNN; 8) 3-D-CNN;9) spectral–spatial ResNet (SSRN) [5]; 10) deep fast CNN (DFCNN)实验内容包括四个不同的实验，用于验证相对于标准分类器(SVM,RF,MLP,2D-CNN,3D-CNN)的性能（实验1），不同的训练数据百分比比较（实验2），与最近的两个基于CNN的空谱分类器进行比较（实验3和4）。其中实验二特别在IP和UP数据集，遵循相同配置，尺寸大小为N×7×7，分别使用5％，10％，15％，20％和25％的训练比比较。实验三与SSRN的比较中采用四种不同的空间大小5×5,7×7,9×9,11×11，在IP和KSC数据集中用20%作为训练数据，UP数据集中用10%作为训练数据。实验四与DFCNN比较时采用9×9,15×15,19×19三种空间尺寸大小。实验1结果显示本文算法较其他标准分类器不仅在精度上有所提升，而且用时较短。实验2结果显示在IP数据集中当训练样本达到20%各算法分类精度提升变缓慢，而在UP数据集中同样的效果只需5%。同时在相同训练样本比下，本文算法在分类精度上表现最好。在与同样是根据空谱信息结合进行分类的算法对比中，本文算法在相同输入空间尺寸下，不仅精度有所提高，而且标准差较其他两个方法小。☛参考文献[1] D. Han, J. Kim, and J. Kim, “Deep pyramidal residual networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017,pp. 6307–6315, doi: 10.1109/CVPR.2017.668[2] B. Waske, S. van der Linden, J. Benediktsson, A. Rabe, and P. Hostert,“Sensitivity of support vector machines to random feature selection in classification of hyperspectral data,” IEEE Trans. Geosci. Remote Sens.,vol. 48, no. 7, pp. 2880–2889, Jul. 2010.[3] G.-B. Huang, H. Zhou, X. Ding, and R. Zhang, “Extreme learning machine for regression and multiclass classification,”IEEE Trans.Syst.,Man, Cybern. B, Cybern., vol. 42, no. 2, pp. 513–529, Apr. 2012.[4] G.-B. Huang and C.-K. Siew, “Extreme learning machine with randomly assigned RBF kernels,” Int. J. Inf.Technol., vol. 11, no. 1, pp. 16–24,2005.[5] Z. Zhong, J. Li, Z. Luo, and M. Chapman, “Spectral–spatial residual network for hyperspectral image classification: A 3-D deep learning framework,” IEEE Trans. Geosci. Remote Sens., vol. 56, no. 2,pp. 847–858, Feb. 2018.]]></content>
       <tags>
-        <tag>CNN</tag>
         <tag>残差网</tag>
-        <tag>图像分类</tag>
         <tag>高光谱图像</tag>
+        <tag>图像分类</tag>
+        <tag>CNN</tag>
       </tags>
   </entry>
   <entry>
@@ -70,18 +164,10 @@
     <url>%2F2018%2F12%2F06%2F%E6%96%87%E7%8C%AE%E4%B9%8B%E7%BE%8E-3D%E6%AE%8B%E5%B7%AECNN%E4%B8%8B%E9%AB%98%E5%85%89%E8%B0%B1%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"></content>
       <tags>
+        <tag>残差网</tag>
         <tag>高光谱</tag>
         <tag>遥感</tag>
         <tag>CNN</tag>
-        <tag>残差网</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[论文写作-英文好句积累]]></title>
-    <url>%2F2018%2F10%2F03%2F%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C-%E8%8B%B1%E6%96%87%E5%A5%BD%E5%8F%A5%E7%A7%AF%E7%B4%AF%2F</url>
-    <content type="text"><![CDATA[代号✄001☆For the task of semantic image segmentation, more context information results in more accurate segmentation results.☆As a result, the network architecture can become exorbitantly complex and large-scale hyperparameter tuning is often wasteful of time and resources.☆However, not all elements of feature responses have the same contribution. For those feature responses that contribute more, we should enhance them. Otherwise, we should suppress them. Based on this idea, we embed attention mechanism into the standard residual block.☆However, there are two main differences between the two attention mechanisms☆In this simple way, greater weight is assigned to more useful feature response, helping to boost feature discriminability.☆To evaluate the effectivity of single component, we retain one of the two components and remove the another.代号✄10.1109/TGRS.2018.2860125高光谱在现有方法上不足时：☆However, the intrinsic complexity of remotely sensed hyperspectral images still limits the performance of many CNN models. The high dimensionality of the HSI data, together with the underlying redundancy and noise, often makes the standard CNN approaches unable to generalize discriminative spectral–spatial features. Moreover, deeper CNN architectures also find challenges when additional layers are added, which hampers the network convergence and produces low classification accuracies.Deep Pyramidal Residual Networks for Spectral–Spatial Hyperspectral Image Classification（本文有段关于1D，2D，3DCNN下的高光谱分类说明）☆描写现阶段CNN用于图像处理效果好的Convolutional neural networks (CNNs) exhibit good performance in image processing tasks, pointing themselves as the current state-of-the-art of deep learning methods☆遥感图像在CNN下的局限凸显However, the intrinsic complexity of remotely sensed hyperspectral images still limits the performance of many CNN models.☆具体为什么CNN不能有效的提取空谱特征The high dimensionality of the HSI data, together with the underlying redundancy and noise, often makes the standard CNN approaches unable to generalize discriminative spectral–spatial features.☆固定句型In order to mitigate these issues, this paper presents a new☆高光谱的实际应用HYPERSPECTRAL imaging (HSI) collects valuable information for monitoring the surface of Earth, thus addressing important remote sensing applications, including environmental management, agriculture, surveillance, and physics。In the literature, different kinds of unsupervised and supervised approaches have been proposed to classify the HSI data[7]。☆近些年提出的用于高光谱分类的监督方法Over the past years, a wide variety of supervised machine learning paradigms have been successfully applied to remotely sensed HSI classification [12]. Support vector machines (SVMs) and kernel-based methods [13], statistical procedures as principal component analysis (PCA) [14] or logistic regression [15], Bayesian models [16], random forest (RF) [17], and neural networks [18] are amongst the most popular approaches.☆阐明高光谱本身的复杂性让分类结果变差Nonetheless, the intrinsic complexity of hyperspectral imagery still makes many of these approaches unable to consistently provide satisfactory classification results, especially under challenging scenarios [1]Several strategies have been adopted in the remote sensing field to mitigate these problems and, consequently, improve the resulting HSI classification accuracy.☆引出空谱结合下的高光谱分类，有明显改进However, one of the most popular research lines to deal with the high complexity of the HSI domain is based on developing spectral–spatial classifiers [6], which can achieve better classification performance than pixelwise classifiers, since they take into account not only the information of the spectral signatures but also the spatial–contextual informationApproaches such as this often pursue a reduction of classification uncertainty by combining each pixel spectra with the size and shape of the corresponding structure to which it belongs☆残差网结构特点In fact, ResNet can be interpreted as a large ensemble of much shallower networks [54], creating a much deeper architecture than its plain counterparts, ensuring a minimum loss of information by modeling each block closer to an identity mapping than to a zero mapping, and adding shortcut connections between each residual block so that they receive more detailed information rather than just abstract information.☆序言最后阐明本文结构的句子The remainder of this paper is organized as follows.☆描述假彩色图分类效果好的句子。As it can be observed, the proposed method provides spatially consistent classification outputs with well-delineated object borders and very few classification interferers.☆描述收敛很快。Besides, the proposed approach also tends to converge faster to the maximum accuracy value than the rest of the tested methods.代号✄005☆描述上述方法对空谱信息提取差However, these methods aforementioned realize the extraction of the spectral-spatial features in a shallower fashion☆高光谱3D处理的必要性However, HSI is virtually 3D data cube, which should be considered as a whole in the spectralspatial feature extraction.The 3D CNNs model [34], an extension of 2D CNNs, inherits the advantages of 2D CNNs. What’s more, the input of 3D CNNs is a 3D cube, which is suitable for the characteristics of HSI and the spectral-spatial information can be treated as a whole.3D CNNs can capture robust and discriminative 3D features.☆传统3DCNN的不足For one thing, fixedsize 3D neighborhood windows are used in the construction of 3D cube samples for spectral-spatial feature learning (as well as 2D CNN-based methods), without considering region boundary areas. For another, the spatial continuity has not been fully utilized in these approaches.☆3D信息的优势However, these methods lack the extraction of high-level features and the exploitation of the 3D spectral-spatial cube information.☆3D较2D的优势3D CNNs inherit the advantages of 2D CNNs. Their difference is that the former directly take 3D cube as its input, which make them more suitable for the 3D ‘hypercube’ characteristics of the HSI data☆softmax介绍The softmax classifier is adopted and connected with the last pooling layer to present the final classification results. Softmax makes the sum of each output unit is 1, and the output can be considered as a set of conditional probabilities.☆参数设定For other methods, their parameters are set as the default values in their papers.☆描写随着核的尺寸数量增加，效果改善，说明网络具有可伸缩性When we increase the number of filters, the classification accuracies also increase.This demonstrates that 3D SP-DNNs have a strong scalability, and with an increase in computational space and time, it can get higher classification accuracies.☆描述假彩图效果好Overall, it can be seen that the classification map of the proposed method is more similar with the groundtruth map. The edges are maintained well and the classification maps are smooth enough.The noise and mixed spectral pixels are suppressed effectively.代号✄006☆描述光谱波段太高的困扰Hyperspectral remote sensing images use hundreds of bands to describe the fine spectral information of the ground area. However, they inevitably contain a large amount of redundancy as well as noisy bands.☆描述注意力机制一般的应用Attention mechanism is used in computer vision and natural language processing to guide the algorithm towards the most relevant information in the data.☆描述高光谱特点，及波段重要性Hyperspectral imagery has been widely adopted in a wide range of areas such as agriculture, ecology, mining and environment monitoring. The main advantage of hyperspectral image over the other imaging modalities comes from the fact that it captures the reflectance information of the target in a huge number of continuous bands across the light spectrum.The acquired spectral signatures contain abundant information of the object, capable of characterizing the physical, chemical and material properties of the target object. In remote sensing,the obtained image may be in relatively low resolution and the ground scene can not be identified only by spatial information.Thus, spectral information is particularly significant in this scenario.☆描述注意力机制的有效性One of the most exciting progress in deep learning recently is attention architecture embedded in the neural networks [16]–[19]. Attention is a mechanism that is used by human brain to process information [20]. Because of the limited processing capability of human brain, it is impossible to process all the information perceived. Therefore, attention mechanisms are employed to concentrate the energy and resources to deal with the most important information. In other words, it is an ability to focus on more critical information and neglect the less relevant ones. In the context of deep learning, attention model has first achieved great success in natural language processing such as machine translation [21], question answering [22], and natural language inference [23]. It can model the dependencies in long sequences and focus on the most relevant part.☆注意力机制的深度学习中的有效性Attention model is designed to make full use of limited resources to process the most important information. In deep learning, it can be a parameterized module or a specific branching layer. The input to the attention model is the feature maps or original raw data and the output is often a weighting mask which can be hard or soft. Then the mask is applied on the feature maps. The mask assigns higher weights on more important features and less on irrelevant ones.☆池化层的两个作用Pooling is a strategy used to summarize the feature map information. It has several benefits. One is that it can reduce the amount of learned parameters of the model, thus can prevent overfiting. Pooling can also increase the size of the receptive field of deeper layers, making the higher layer to receive more global information. Through pooling, the features are aggregated to provide invariance property.☆注意力机制中激活函数选softmax时的理由In many attention models [19], [30], the output attention values are activated by the sigmoid function to give each original feature weight between 0 and 1 to equally consider them. However, in hyperspectral band attention case, we have already known that there is a large amount of redundancy in the band features and only a few of them are useful for the classification. Hence, it is more desirable to require the attention module make a choice between each other in the attention output.☆为什么做多次实验取平均值Since the training set was randomly sampled from the dataset, the sampled training data may introduce stochasticity to the performance.To alleviate this problem, we ran the sampling for twenty times and calculated the mean and standard deviation of the metrics.代号✄007☆残差的堆叠结构对注意力机制的优势Stacked network structure: Our Residual Attention Network is constructed by stacking multiple Attention Modules. The stacked structure is the basic application of mixed attention mechanism. Thus, different types of attention are able to be captured in different Attention Modules.☆直接对注意力块的堆叠效果并不好Stacking Attention Modules directly lead to the obvious performance drop.☆堆叠结构对复杂图像的深入学习Besides, the incremental nature of stacked network structure can gradually refine attention for complex images.]]></content>
-      <tags>
-        <tag>论文写作</tag>
       </tags>
   </entry>
   <entry>
