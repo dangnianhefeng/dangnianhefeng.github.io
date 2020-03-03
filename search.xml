@@ -26,8 +26,8 @@
     <content type="text"><![CDATA[1.论文概要研究背景：✡︎论文链接。本文提出了“残差注意力网络”，一种使用注意机制的卷积神经网络，以端到端的训练方式与前沿的前馈网络架构相结合。本文算法有两个优势，首先可以广泛捕获不同类型注意力特征图，其次残差块的加入可以使网络可以轻松拓展到非常深的层次。2.算法应用网络框架设计==未完待续==残差块由两部分构成，trunk branch和mask branch。主干分支主要用于特征处理并能应用于任何前沿的网络架构。网络参数设置☛参考文献[1] M. Jaderberg, K. Simonyan, A. Zisserman, et al. Spatial transformer networks. In NIPS, 2015]]></content>
       <tags>
         <tag>图像分类</tag>
-        <tag>注意力机制</tag>
         <tag>残差网</tag>
+        <tag>注意力机制</tag>
       </tags>
   </entry>
   <entry>
